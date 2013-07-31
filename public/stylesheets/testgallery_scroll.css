@@ -1,0 +1,113 @@
+#nav
+{
+    position: absolute;
+    bottom: 1px;
+    width: 300px;
+    height: 10px;
+    left: 40%;
+    background-color: #000000;
+}
+
+#nav ul
+{
+    position: absolute;
+    bottom: 1px;
+    width: 300px;
+    height: 10px;
+    clear: both;
+    display: block;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+#nav ul li
+{
+    float: left;
+}
+
+#nav ul li a
+{
+    position: relative;
+    top: 0px;
+    margin-right: 5px;
+    background-color: #e5e5e5;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    display: block;
+}
+
+#nav ul li a:hover
+{
+    background-color: #e1e1e1;
+}
+
+#nav ul li .selected
+{
+    background-color: Grey;
+}
+
+#rightButton
+{
+    position:absolute;
+    width:80px;
+    right:0px;
+    height:100%;
+    z-index:3;
+}
+#rightButton a
+{
+    position:absolute;
+     top:150px;
+    width:40px;
+    height:100px;
+    background-image:url('/images/images/plusplus.png');
+    display:block;
+}
+
+#backButton
+{
+    position:absolute;
+    left: 0px;
+    width:80px;
+    right:0px;
+    height:100%;
+    z-index:3;
+}
+#backButton a
+{
+    position:absolute;
+    top:150px;
+    width:40px;
+    height:100px;
+    background-image:url('/images/images/minusminus.png');
+    display:block;
+}
+
+#contentWrapper
+{
+   position:absolute;
+   overflow:hidden;
+   width:250px;
+   /* left: 80px; */
+}
+.contentItem
+{
+    position: absolute;
+    /*background-color: #fff;*/
+    width:100%;
+    height:100%;
+    background-color:#fff;
+    background-size:250px 350px;
+    background-repeat:no-repeat;
+}
+
+.contentPic {
+    position:relative;
+    height:100%;
+    width:100%;
+    background-color:#fff;
+    background-size:250px 350px;
+    background-repeat:no-repeat;
+}#contentPicture1{background-image:url('/images/images/M_Tee_Decontracte.png');}#contentPicture2{background-image:url('/images/images/M_Chemise_Decontracte.png');}#contentPicture3{background-image:url('/images/images/M_Chemise_Habille.png');}#contentPicture4{background-image:url('/images/images/M_Gilet_Decontracte.png');}#contentPicture5{background-image:url('/images/images/M_Pull_Habille.png');}#contentPicture6{background-image:url('/images/images/M_Pull_Sport.png');}#contentPicture7{background-image:url('/images/images/M_T_Habille.png');}#contentPicture8{background-image:url('/images/images/M_Short_Sport.png');}#contentPicture9{background-image:url('/images/images/M_Tee_Decontracte.png');}
