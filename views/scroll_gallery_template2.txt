@@ -1,0 +1,184 @@
+						<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      					<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+					</div>
+				  </div>
+				  <!-- End SlidesJS Required: Start Slides -->
+
+				  <!-- SlidesJS Required: Link to jQuery -->
+				  <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+				  <script src="javascripts/jquery.js"></script>
+				  
+				  <!-- End SlidesJS Required -->
+
+				  <!-- SlidesJS Required: Link to jquery.slides.js -->
+				  <script src="javascripts/jquery.slides.min.js"></script>
+				  <!-- End SlidesJS Required -->
+
+				  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+				  <script>
+					$(function() {
+					  $('#slides').slidesjs({
+						width: 449,
+						height: 384
+					  });
+					});
+				  </script>
+				  <!-- End SlidesJS Required -->
+			</div>
+
+			<div class="but">
+				<!-- <a href="#" onclick="random()">Random</a> | <a href="#filter" >Filter</a> -->
+				<a href="#" onclick="random()">Random</a> | <a href="/filter" >Filter</a>
+			</div>
+			<div id="random"
+				style="height: 32%; background-color: white; border-top: 1px solid black;">
+			</div>
+			
+			<div id="filter" style="height: 32%; background-color: white; border-top: 1px solid black;">
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" id="footerHome">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"><img src="/images/icons/back-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/preview-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/save-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/share-icon.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- filter page -->
+	<div data-role="page" id="filter">
+		<div data-role="panel" id="mypanel2" data-display="push">
+			<img style="width: 50px;" src="/images/images/gunther.jpg"><span
+				class="cart">Phillip</span>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#calendar"> <img src="/images/images/Calendar.png">
+						<h2>Calendar</h2></a></li>
+				<li><a href="#"> <img src="/images/images/Favorites.png">
+						<h2>Favorite</h2></a></li>
+				<li><a href="#mix"> <img src="/images/images/Clothes.png">
+						<h2>Inventory</h2></a></li>
+				<li><a href="#"> <img src="/images/images/Help.png">
+						<h2>Help</h2></a></li>
+			</ul>
+		</div>
+		<div data-role="header" data-position="fixed">
+			<h1>Mix And Match</h1>
+			<a href="#mypanel2"> <img src="images/icons/menu-icon.png">
+			</a>
+		</div>
+		<div data-role="content" id="contentHome">
+			<a href="#mix"><img src="/images/images/kloset-ecran-filter.png" ></a>	
+		</div>
+		
+		<div data-role="footer" data-position="fixed" id="footerHome">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"><img src="/images/icons/back-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/preview-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/save-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/share-icon.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- calendar page -->
+	<div data-role="page" id="calendar">
+		<div data-role="panel" id="mypanel2" data-display="push">
+			<img style="width: 50px;" src="/images/images/gunther.jpg"><span
+				class="cart">Phillip</span>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#calendar"> <img src="/images/images/Calendar.png">
+						<h2>Calendar</h2></a></li>
+				<li><a href="#"> <img src="/images/images/Favorites.png">
+						<h2>Favorite</h2></a></li>
+				<li><a href="#mix"> <img src="/images/images/Clothes.png">
+						<h2>Inventory</h2></a></li>
+				<li><a href="#"> <img src="/images/images/Help.png">
+						<h2>Help</h2></a></li>
+			</ul>
+		</div>
+		<div data-role="header" data-position="fixed">
+			<h1>Mix And Match</h1>
+			<a href="#mypanel2"> <img src="/images/icons/menu-icon.png">
+			</a>
+		</div>
+		<div data-role="content" id="contentHome">
+			<a href="#mix"><img src="/images/images/calendar-img.jpg" ></a>	
+		</div>
+		
+		<div data-role="footer" data-position="fixed" id="footerHome">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"><img src="/images/icons/back-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/preview-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/save-icon.png"></a></li>
+					<li><a href="#"><img src="/images/icons/share-icon.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Registration Page -->
+	<div data-role="page" id="register" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			<h1>New Kloseter</h1>
+		</div>
+
+		<div data-role="content" id="register">
+			<form>
+				<label for="identifiant">Votre adresse email</label> <input
+					type="email" name="identifiant" id="identifiant" value=""
+					placeholder="Votre e-mail"> <label for="password">Mot
+					de passe</label> <input type="password" data-clear-btn="false"
+					name="password" id="password" value="" autocomplete="off"
+					placeholder="Sandrinedu59"> <label for="password2">Rataper
+					votre mot de passe</label> <input type="password" data-clear-btn="false"
+					name="password2" id="password2" value="" autocomplete="off"
+					placeholder="Sandrinedu59"> <label for="name">Votre
+					nom</label> <input type="text" name="name" id="name" value=""
+					placeholder="Votre nom"> <label for="name">Votre
+					prénom</label> <input type="text" name="firstname" id="firstname" value=""
+					placeholder="Votre prénom">
+			</form>
+
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#main" data-role="button">Créer son compte</a> <a href="#"
+					data-role="button">Effacer</a>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<p>Kloset APP</p>
+		</div>
+	</div>
+
+	<!-- lost Pwd Page -->
+	<div data-role="page" id="lost">
+		<div data-role="header" data-position="fixed">
+			<h1>Password lost ?</h1>
+		</div>
+
+		<div data-role="content">
+			<p>Quoi tu as perdu ton mot de passe ? Ha la la, moi ça m'arrive
+				tous les jours ... Inscrit ton adresse et un e-mail te sera
+				directement envoyé</p>
+			<form>
+				<label for="idlost">Your email</label> <input type="email"
+					name="idlost" id="idlost" value="" placeholder="SpongBob@gmail.com">
+				<a href="#login" data-role="button">Send me the email</a>
+			</form>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<p>Kloset APP</p>
+		</div>
+	</div>
+
+
+</body>
+</html>
